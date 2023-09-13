@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">My Porfolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Gardening</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="container-fluid bg-body-secondary">
+      <div class="p-5 row">
+      <div class="col">
+        <h1 class="display-4 fst-italic">Title for your post or item to sell</h1>
+        <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p class="lead"><a href="#" class="fw-bold text-body-emphasis">Continue reading...</a></p>
+      </div>  
+      </div>
+    </main>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+              <div class="card mt-3">
+                <div class="card-header">
+                  About Me
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Nice to meet you!</h5>
+                  <p class="card-text">Thanks for stopping by.</p>
+                  <a 
+                  href="#" 
+                  class="btn btn-primary" 
+                  data-bs-toggle="modal"
+                  data-bs-target="#myMission"
+                  >My Mission</a>
+                  <div class="modal fade" id="myMission">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h2 class="modal-title">My Mission</h2>
+                        </div>
+                        <div class="modal-body">Hello...</div>
+                      <div class="modal-footer">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mt-3">
+                <div class="card-header">
+                  Sports
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Basketball Season Starts</h5>
+                  <p class="card-text">Thanks for stopping by.</p>
+                  <a href="#" class="btn btn-primary">My Mission</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mt-3">
+                <div class="card-header">
+                  Gardening
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">How to plant in the fall</h5>
+                  <p class="card-text">Thanks for stopping by.</p>
+                  <a href="#" class="btn btn-primary">My Mission</a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid bg-dark mt-3 mt-3 footer-text py-3">
+      <div class="row">
+        <div class="col-4">
+          <h2>Contact</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>

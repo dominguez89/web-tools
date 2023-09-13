@@ -1,0 +1,12 @@
+.btn-info{
+    color: white;
+    background-color: blueviolet;
+}
+
+.btn-info:hover{
+    color: black;
+    background-color: chartreuse;
+}
+.footer-text{
+    color: #fff
+}

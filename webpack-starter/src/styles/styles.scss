@@ -1,0 +1,25 @@
+$primary: red;
+$secondary: green;
+$fontColor: #777;
+
+h1{
+    color: $primary;
+}
+
+h2{
+    color: $secondary;
+}
+
+.wrapper {
+    width: 50%;
+    margin: 0 auto;
+
+    & p {
+        font-size: 16px;
+        color: $fontColor;
+
+        & .large-text{
+            font-size: 25px;
+        }
+    }
+}
